@@ -11,7 +11,7 @@ for (var i = 0; i < reindeerCount; i++) {   //creates loop and only once
       colorReindeer += colors[i] + " " + reindeer[i] + "<br>";
 
 }
-
+console.log("done");
 var hohohoElement = document.getElementById("reindeer");
 
 document.getElementById("reindeer").innerHTML = colorReindeer;
